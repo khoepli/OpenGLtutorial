@@ -1,0 +1,11 @@
+﻿  perspective.cpp
+d:\users\koni\documents\github\ba\opengltutorial\perspective\perspective.cpp(170): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+d:\users\koni\documents\github\ba\opengltutorial\perspective\perspective.cpp(265): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+d:\users\koni\documents\github\ba\opengltutorial\perspective\perspective.cpp(266): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+d:\users\koni\documents\github\ba\opengltutorial\perspective\perspective.cpp(270): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+d:\users\koni\documents\github\ba\opengltutorial\perspective\perspective.cpp(271): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+d:\users\koni\documents\github\ba\opengltutorial\perspective\perspective.cpp(272): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+d:\users\koni\documents\github\ba\opengltutorial\perspective\perspective.cpp(273): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+d:\users\koni\documents\github\ba\opengltutorial\perspective\perspective.cpp(297): warning C4244: '-=': conversion from 'double' to 'GLfloat', possible loss of data
+  Perspective.vcxproj -> D:\Users\Koni\Documents\GitHub\BA\OpenGLtutorial\Debug\Perspective.exe
+  Perspective.vcxproj -> D:\Users\Koni\Documents\GitHub\BA\OpenGLtutorial\Debug\Perspective.pdb (Partial PDB)
