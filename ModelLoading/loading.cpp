@@ -75,7 +75,11 @@ int main()
 
 	// Load models
 	Model ourModel("./DemoData/stl_File/CR.stl");
-
+	Model secondModel("./DemoData/stl_File/CL.stl");
+	Model thirdModel("./DemoData/stl_File/FL.stl");
+	Model fourthModel("./DemoData/stl_File/FR.stl");
+	Model fifthModel("./DemoData/Mandibular2_red_bin.stl");
+	Model sixthModel("./DemoData/Maxillary2_red_bin.stl");
 	// Draw in wireframe
 	//glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
@@ -108,7 +112,11 @@ int main()
 		//model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));	// It's a bit too big for our scene, so scale it down
 		glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		ourModel.Draw(shader);
-
+		secondModel.Draw(shader);
+		thirdModel.Draw(shader);
+		fourthModel.Draw(shader);
+		fifthModel.Draw(shader);
+		sixthModel.Draw(shader);
 		// Swap the buffers
 		glfwSwapBuffers(window);
 	}
