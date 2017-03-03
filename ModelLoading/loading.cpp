@@ -71,7 +71,7 @@ int main()
 	glEnable(GL_DEPTH_TEST);
 
 	// Setup and compile our shaders
-	Shader shader("./loading.vertex", "./loading.fragment");
+	Shader shader("./loading.vert", "./loading.frag");
 
 	// Load models
 	Model ourModel("./DemoData/stl_File/CR.stl");

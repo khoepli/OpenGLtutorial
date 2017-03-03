@@ -1,15 +1,15 @@
 #pragma once
 // Std. Includes
 #include <string>
-#include <fstream>
+//#include <fstream>
 #include <sstream>
-#include <iostream>
+//#include <iostream>
 #include <vector>
 using namespace std;
 // GL Includes
 #include <glew/glew.h> // Contains all the necessery OpenGL includes
 #include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
+//#include <glm/gtc/matrix_transform.hpp>
 
 
 struct Vertex {
